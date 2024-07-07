@@ -1,14 +1,14 @@
-/* * {
+* {
 	border: 1px dashed red;
 	min-height: 10px;
-	font-family: "Agbalumo";
 }
 body {
 	background: black;
-} */
+}
 
 p {
-	font-size: 14px;
+	font-family: "Agbalumo";
+	font-size: 12.6px;
 	text-align: center;
 }
 .postcard {
@@ -57,6 +57,7 @@ p {
 
 .postcard-body {
 	display: flex;
+	max-height: 71%;
 }
 
 .body-left p:first-child {
