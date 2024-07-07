@@ -1,0 +1,88 @@
+/* * {
+	border: 1px dashed red;
+	min-height: 10px;
+	font-family: "Agbalumo";
+}
+body {
+	background: black;
+} */
+
+p {
+	font-size: 14px;
+	text-align: center;
+}
+.postcard {
+	border: 2px solid black;
+	border-radius: 10px;
+	background: white;
+	width: 400px;
+	height: 300px;
+	margin: auto;
+
+	/*
+
+
+        */
+}
+
+.postcard-header h1 {
+	width: 100%;
+	margin: 0;
+}
+
+.postcard-header {
+	display: flex;
+	align-items: center;
+
+	/* 
+    Este tipo de solucion tambien es valida cierto?
+    Reduce un poco el repetir clases
+
+    && img {
+		width: 50px;
+		height: 50px;
+	} 
+
+    && h1 {
+		width: 100%;
+		margin: 0;
+	}    
+    */
+}
+
+.postcard-header img {
+	width: 50px;
+	height: 50px;
+}
+
+.postcard-body {
+	display: flex;
+}
+
+.body-left p:first-child {
+	margin-top: 0;
+}
+
+.body-left,
+.body-right {
+	padding: 20px;
+}
+
+input {
+	border: none;
+	border-bottom: 1px solid grey;
+	margin-bottom: 1rem;
+}
+
+.postcard-footer {
+	background-color: lightblue;
+	border-radius: 0 0 10px 10px;
+	padding: 0.5rem;
+	text-align: center;
+}
+
+.sendBtn:hover {
+	background-color: black;
+	color: white;
+	cursor: pointer;
+}
